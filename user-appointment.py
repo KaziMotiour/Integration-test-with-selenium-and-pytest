@@ -37,6 +37,7 @@ def wait_for_element(driver, by, value, timeout=2, poll_frequency=0.2):
     wait = WebDriverWait(driver, timeout=timeout, poll_frequency=poll_frequency, ignored_exceptions=errors)
     return wait.until(lambda d : d.find_element(by, value))
 
+
 def perform_mouse_click_action(driver: webdriver, by, value):
     """
         Perform muse actions
@@ -49,6 +50,7 @@ def perform_mouse_click_action(driver: webdriver, by, value):
         .click(element)\
         .perform()
     
+
 def select_date(driver: webdriver):
     """
         Select a date in the date picker widget.
