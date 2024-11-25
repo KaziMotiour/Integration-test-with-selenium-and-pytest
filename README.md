@@ -3,7 +3,7 @@
 
 ### Run command
 * Install dependency
-pip install -r requirements.txt
+** pip install -r requirements.txt
 
 * Run test
-pytest user-appointment.py
+** pytest user-appointment.py
